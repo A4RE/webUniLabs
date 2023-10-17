@@ -1,0 +1,97 @@
+html {
+    font-style: italic;
+    font-family: Arial;
+}
+body{
+    margin: 0;
+    background: lightskyblue;
+}
+header {
+    background: darkseagreen;
+    height: 200px;
+    border: black 5px solid;
+    border-radius: 70px;
+    height: 300px;
+    width: 98%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 75px;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.inp {
+    border: black 1px solid;
+    border-radius: 10px;
+  margin-left: 20px;
+}
+.left {
+    width:45%;
+    height:900px;
+    overflow:auto;
+    float:left;
+    border: black 2px solid;
+    border-radius: 25px;
+    padding-left: 25px;
+    margin-left: 25px;
+    background: whitesmoke;
+}
+.right {
+    width:45%;
+    height:1000px;
+    overflow:auto;
+    float:right;
+}
+.border-button {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0px 0px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 120px;
+    height: 35px;
+}
+.section1 {
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.section2 {
+    margin-top: 20px;
+}
+.section3 {
+    margin-top: 50px;
+}
+.table {
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.tbl_1 {
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.table1{
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-top: 20%;
+}
+.formi {
+    border: black 1px solid;
+    border-radius: 15px;
+    background: whitesmoke;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
