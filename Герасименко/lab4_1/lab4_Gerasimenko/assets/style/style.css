@@ -1,0 +1,339 @@
+* {
+    font-family: 'Roboto Thin', sans-serif;
+}
+html, h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+body {
+    background: rgba(255, 178, 133, 0.67);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+input {
+    padding: 10px 12px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    line-height: 1.5rem;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+input:focus{
+    border: black 1px solid;
+    background: transparent;
+}
+/*
+    HEADER
+*/
+header {
+    background: rgba(127, 184, 12, 0.67);
+    height: 65px;
+}
+
+header * {
+    color: black;
+}
+
+header h1 {
+    margin-top: 13px;
+}
+
+header h1 .logo {
+    color: black;
+}
+header h1 .logo:hover{
+    color: black;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    float: left;
+    position: relative;
+}
+
+header ul li a {
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    width: 100%;
+}
+header ul li a:hover {
+    border: whitesmoke 1px solid;
+    transition: 0.5s;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 120px;
+    display: none;
+    z-index: 111;
+}
+/*
+    MAIN
+*/
+.main-content h2 {
+    margin: 30px 0;
+    color: black;
+}
+
+.main-content .zoo {
+    margin-bottom: 30px;
+}
+
+.main-content .zoo_text {
+    background: rgba(127, 184, 12, 0.67);
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+}
+
+.main-content .zoo_text h3 {
+    margin: 10px 0;
+}
+
+.main-content .zoo_text h3 a:hover {
+    color: whitesmoke;
+}
+/*
+    SIDE BAR
+*/
+.search {
+    margin-top: 98px;
+}
+.sidebar .section {
+    background: rgba(127, 184, 12, 0.67);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.sidebar .section .search-term {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    color: black;
+}
+.sidebar .section input {
+    margin-top: 10px;
+    background: rgba(255, 178, 133, 0.67);
+    border: none;
+}
+.sidebar .section .btn-search:hover {
+    background: #e1e1e1;
+    border: none;
+}
+/*
+    Register Form
+*/
+.reg_form h2 {
+    color: black;
+    text-align: center;
+    margin: 30px 0;
+}
+.reg_form .mb-3 {
+    width: 50%;
+}
+
+.reg_form .mb-3 input{
+    color: black;
+}
+
+.reg_form form {
+    margin: 30px 0;
+    background: rgba(127, 184, 12, 0.67);
+    border-radius: 25px;
+}
+.reg_form input {
+    border: none;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+.reg_form input:focus {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.reg_form .btn-reg {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.reg_form .btn-reg p {
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+.reg_form .btn-reg a {
+    color: black;
+    text-decoration: underline;
+}
+
+.reg_form .btn-reg a:hover {
+    color: darkslateblue;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.reg_form button {
+    align-self: center;
+    background: rgba(255, 178, 133, 0.67);
+    border: none;
+    color: black;
+    width: 50%;
+}
+
+.reg_form button:hover {
+    background: darkslateblue;
+    color: black;
+}
+/*
+    Gallery
+*/
+.gallery {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.gallery h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.gallery .gallery_card {
+    height: 300px;
+}
+.gallery_card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.gallery_card:hover img {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+/*
+    form Svyaz
+*/
+.obr_svyaz .form-obr-svaz h2{
+    color: black;
+    text-align: center;
+    margin: 30px 0;
+}
+.obr_svyaz {
+    margin-top: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: rgba(127, 184, 12, 0.67);
+}
+.obr_svyaz input, .obr_svyaz textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+.obr_svyaz input:focus, .obr_svyaz textarea:focus {
+    background: transparent;
+    outline: none;
+    color: black;
+}
+.obr_svyaz .btn-reg {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.obr_svyaz button {
+    background: rgba(255, 178, 133, 0.67);
+    color: black;
+    border: none;
+}
+.obr_svyaz button:hover {
+    background: darkslateblue;
+    color: black;
+    border: none;
+}
+/*LK*/
+.main-section {
+    background: rgba(127, 184, 12, 0.67);
+    border-radius: 20px;
+}
+.main-section h2 {
+    text-align: center;
+    color: black;
+
+}
+.main-section .user-info {
+    padding-top: 4%;
+    text-align: center;
+}
+.main-section .buttons {
+    padding-top: 1%;
+}
+.vivod h2 {
+    color: black;
+
+}
+
+.table {
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+}
+.table th {
+    background: rgba(255, 178, 133, 0.67);
+    color: black;
+    border: 1px solid black;
+}
+.table tr td {
+    border: 1px solid black;
+    background: transparent;
+}
+
+.btn-lk {
+    background: rgba(255, 178, 133, 0.67);
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    border: none;
+}
+.btn-lk:hover {
+    color: black;
+    background: darkslateblue;
+    border: none;
+}
+/*Merch*/
+.table_merch {
+    background: rgba(127, 184, 12, 0.67);
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.table_merch h2, h5{
+    color: #e1e1e1;
+}
+
+.a-link:hover {
+    color: darkslateblue;
+}
