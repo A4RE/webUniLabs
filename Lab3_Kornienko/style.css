@@ -1,0 +1,92 @@
+html{
+    font-family: cursive;
+    font-style: italic;
+}
+body {
+    background: burlywood;
+    margin: 0;
+}
+header {
+    background: darkseagreen;
+    height: 200px;
+    border-bottom: black 5px solid;
+}
+h1{
+    font-size: 75px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.inp{
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.left {
+    width:45%;
+    height: 1350px;
+    overflow:auto;
+    float:left;
+    border: black 1px solid;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-left: 50px;
+    background-color: darkseagreen;
+}
+.right {
+    width:45%;
+    height:1350px;
+    overflow:auto;
+    float:right;
+    border: black 1px solid;
+    margin-right: 50px;
+    border-radius: 50px;
+    background-color: darkseagreen;
+}
+.border-button {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0px 0px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+}
+
+.first_section {
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: darkseagreen;
+}
+.second_section {
+    margin-top: 20px;
+}
+.third_section {
+    margin-top: 50px;
+}
+.tbl_1 {
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.table{
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.table1{
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-top: 50%;
+}
