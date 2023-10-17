@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", sans-serif;
+}
+body {
+    background: lightgray;
+}
+header {
+    background: darkolivegreen;
+    height: 70px;
+}
+header h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+.table {
+    border: 1px solid black;
+}
+.table th {
+    background: gray;
+    text-align: center;
+    padding: 5px;
+    border: black 1px solid;
+}
+.table tr td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 2.5px;
+}
+
+.form-section {
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form {
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: gray;
+    margin: 15px;
+    padding: 20px;
+}
+label {
+    padding-right: 5px;
+}
+input {
+    border: none;
+    border-bottom: black 1px solid;
+    background: lightgray;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 200px;
+}
+.btn {
+    border: none;
+    background: white;
+    width: 75px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    color: black;
+}
+.btn:hover {
+    border: darkblue 1px solid;
+    background: lightskyblue;
+    transition: 0.5s;
+}
+.select {
+    border-radius: 5px;
+    border: none;
+    background: lightgray;
+    outline: none;
+}
+.select-1 {
+    width: 150px;
+    border: none;
+    outline: none;
+    background: lightgray;
+    border-radius: 5px;
+}
+.input-1 {
+    border: none;
+    border-bottom: black 1px solid;
+    background: lightgray;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    padding-left: 3px;
+    width: 148px;
+}
+.select-2 {
+    width: 150px;
+    border: none;
+    outline: none;
+    background: lightgray;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.result-forms {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table1 {
+    border: 1px solid black;
+    width: 50%;
+}
+.table1 th {
+    background: gray;
+    text-align: center;
+    padding: 5px;
+    border: black 1px solid;
+}
+.table1 tr td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2.5px;
+}
